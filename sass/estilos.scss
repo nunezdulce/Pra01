@@ -1,0 +1,447 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+}
+
+i {
+  font-size: 3rem;
+}
+
+e {
+  font-size: x-large;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Jost', sans-serif;
+}
+
+/* CONTENEDOR BANNER */
+.container-banner {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* TEXTO BANNER */
+.banner-text {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+/* COLOR BARRA DE NAVEGACIÓN */
+.bg-nav {
+
+  background-color: rgb(80, 80, 80);
+
+}
+
+/* COLOR FONDO 01 */
+.bg-col-01 {
+
+  background-color: rgb(0, 104, 119);
+
+}
+
+/* COLOR FONDO 02 */
+.bg-col-02 {
+
+  background-color: rgb(0, 170, 149);
+
+}
+
+/* COLOR FONDO 03 */
+.bg-col-03 {
+
+  background-color: rgb(0, 0, 0);
+
+}
+
+/* COLOR FONDO 04 */
+.bg-col-04{
+  background-color: rgb(232, 243, 241);
+
+}
+
+/* COLOR FUENTE 01 */
+.font-color-01{
+  color:rgb(255, 255, 255);
+
+}
+
+/* COLOR FUENTE 02 */
+.font-color-02 {
+  color:rgb(0, 104, 119);
+  font-weight: 500;
+  font-size: 150%;
+
+}
+
+/* COLOR FUENTE 03 */
+.font-color-03 {
+  color:rgb(246, 194, 0);
+  font-weight: 700;
+  font-size: 450%;
+
+}
+
+/* FILTRO OSCURO */
+.img-bl{
+  -webkit-filter: brightness(50%);
+  filter: brightness(60%);
+ 
+}
+
+/* SOMBRA IMAGENES */
+.polaroid {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+/* DEGRADADO */
+.bg-gradient{
+  background: rgb(150,0,201);
+  background: linear-gradient(90deg, rgba(150,0,201,1) 0%, rgba(30,208,208,1) 49%, rgba(0,212,255,1) 100%);
+
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+
+}
+
+/* PADDING Y */
+.pad-y {
+  padding-top: 10%;
+
+}
+
+/*  BOTÓN 01 */
+.boton{
+  border: 1px solid rgb(30, 164, 121);
+  padding: 8px 25px ;
+  background-color:rgb(30, 164, 121) ;
+  font-weight: bold;
+  color:rgb(255, 255, 255);
+  border-radius: 30px;
+  text-decoration: none;
+  
+}
+
+/*  BOTÓN 02 */
+.boton-02{
+  border: 1px solid rgb(30, 164, 121);
+  padding: 8px 25px ;
+  background-color:rgb(0, 104, 119) ;
+  font-weight: bold;
+  color:rgb(255, 255, 255);
+  border-radius: 30px;
+  text-decoration: none;
+    
+}
+
+/*  BOTÓN 03 */
+.boton-03{
+  border: 1px solid rgb(246, 194, 0);
+  padding: 8px 25px ;
+  background-color:rgb(246, 194, 0);
+  font-weight: bold;
+  color:rgb(255, 255, 255);
+  border-radius: 30px;
+  text-decoration: none;
+     
+}
+
+/*  ESTILOS DULCE */
+.tt{
+  font-family: jost;
+  font-size: xx-large;
+  color: rgb(55, 122, 100);
+  
+}
+    
+.tty{
+  background-color: rgb(228, 239, 238);
+  font-family: jost;
+  color: rgb(0, 0, 0);
+
+}
+
+.tto{
+  background-color:rgb(30, 164, 121) ;
+  font-family: jost;
+  color: rgb(255, 255, 255);
+
+}
+
+.tti{
+  background-color: rgb(22, 96, 111);
+  font-family: jost;
+  color: rgb(255, 255, 255);
+
+}
+
+.bn{
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.la{
+  font-family: jost;
+  color: rgb(242, 183, 9);
+
+}
+
+.lb{
+  font-family: jost;
+  color: rgb(255, 255, 255);
+  
+}
+
+.reto2{
+  width: 100%;
+  height: 80vh;
+  background-image: url("/img/nosotros.jpg");
+
+}
+
+.reto{
+  width: 100%;
+  height: 80vh;
+  background-image: url("/img/proyectos-audiovisuales-multimedia-interactivos.jpg");
+
+}
+
+.eje{
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+
+}
+      
+.drop {
+  filter: drop-shadow(0 5px 8px rgba(0, 0, 0, 0.7));
+
+}
+
+.multi{
+  width: 100%;
+  height: 100vh;
+  background-image: url("/img/headphones-g38bfbdf2e_1920.jpg");
+
+}
+ 
+  .app1{
+  width: 100%;
+  height: 80vh;
+  background-image: url("/img/diseño-apps-02.png");
+  background-repeat: no-repeat ;
+  background-size: cover;
+    
+  }
+
+
+/*-------------------------------------------------------------- 
+# ESTILOS DEL MODAL 
+--------------------------------------------------------------*/ 
+.modal-content a{ 
+  background-color: rgba(0, 0, 0, 0.623); 
+  border: none; 
+  border-radius: 0; 
+  color: white; 
+
+  a{ 
+      color: white; 
+  } 
+
+} 
+
+.modal-header{ 
+  border-bottom: none; 
+}
+
+/*-------------------------------------------------------------- 
+  # GALERÍA 2 COMPLEJA 
+  --------------------------------------------------------------*/ 
+
+.portfolio .portfolio-item { 
+  margin-bottom: 30px; 
+
+} 
+
+.portfolio #portfolio-flters { 
+  padding: 0; 
+  margin: 0 auto 20px auto; 
+  list-style: none; 
+  text-align: center; 
+
+ } 
+
+.portfolio #portfolio-flters li { 
+  cursor: pointer; 
+  display: inline-block; 
+  padding: 8px 15px 10px 15px; 
+  font-size: 14px; 
+  font-weight: 600; 
+  line-height: 1; 
+  text-transform: uppercase; 
+  color: #444444; 
+  margin-bottom: 5px; 
+  transition: all 0.3s ease-in-out; 
+  border-radius: 3px; 
+
+} 
+
+.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active { 
+  color: #fff; 
+  background: var(--color-principal); 
+
+} 
+
+.portfolio #portfolio-flters li:last-child { 
+  margin-right: 0; 
+
+} 
+
+.portfolio .portfolio-wrap { 
+  transition: 0.3s; 
+  position: relative; 
+  overflow: hidden; 
+  z-index: 1; 
+  background: rgba(17, 17, 17, 0.6); 
+
+} 
+
+.portfolio .portfolio-wrap::before { 
+  content: ""; 
+  background: rgba(17, 17, 17, 0.6); 
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+  top: 0; 
+  bottom: 0; 
+  transition: all ease-in-out 0.3s; 
+  z-index: 2; 
+  opacity: 0; 
+
+} 
+
+.portfolio .portfolio-wrap img { 
+  transition: all ease-in-out 0.3s; 
+
+} 
+
+.portfolio .portfolio-wrap .portfolio-info { 
+  opacity: 0; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  z-index: 3; 
+  transition: all ease-in-out 0.3s; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: flex-end; 
+  align-items: flex-start; 
+  padding: 20px; 
+
+} 
+
+.portfolio .portfolio-wrap .portfolio-info h4 { 
+  font-size: 20px; 
+  color: #fff; 
+  font-weight: 600; 
+
+} 
+
+.portfolio .portfolio-wrap .portfolio-info p { 
+  color: rgba(255, 255, 255, 0.7); 
+  font-size: 14px; 
+  text-transform: uppercase; 
+  padding: 0; 
+  margin: 0; 
+  font-style: italic; 
+
+} 
+   
+.portfolio .portfolio-wrap .portfolio-links { 
+  text-align: center; 
+  z-index: 4; 
+
+}
+
+.portfolio .portfolio-wrap .portfolio-links a { 
+  color: rgba(255, 255, 255, 0.4); 
+  margin: 0 5px 0 0; 
+  font-size: 28px; 
+  display: inline-block; 
+  transition: 0.3s; 
+
+} 
+
+.portfolio .portfolio-wrap .portfolio-links a:hover { 
+  color: #fff; 
+
+} 
+
+.portfolio .portfolio-wrap:hover::before { 
+  opacity: 1; 
+
+} 
+  
+.portfolio .portfolio-wrap:hover img { 
+  transform: scale(1.2); 
+
+} 
+
+.portfolio .portfolio-wrap:hover .portfolio-info { 
+  opacity: 1; 
+
+} 
+
+.titulo {
+  font-size: 2rem;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+  
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+  /*Estilos Scroll 
+--------------------------------------------------------------*/ 
+
+body::-webkit-scrollbar { 
+  width: 10px; 
+    background: black; 
+
+  } 
+
+body::-webkit-scrollbar-thumb { 
+  /*background: white, 0.2;*/ 
+  border-radius: 10px; 
+  border-right: 10px solid gray; 
+
+} 
+
+ 
